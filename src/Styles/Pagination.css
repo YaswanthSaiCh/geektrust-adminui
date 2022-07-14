@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+.firstBtn {
+  border-radius: 50%;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  border-radius: 50%;
+  margin: 0.5rem;
+  height: 35px;
+  width: 35px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #d3d3d3;
+}
+.buttonClicked {
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin: 0.5rem;
+  height: 35px;
+  width: 35px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
